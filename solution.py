@@ -5,6 +5,7 @@ import numpy as np
 
 def main():
     # print command line arguments
+
     input_dir, output_dir = sys.argv[1:]
     predicted_result = []
     df = np.loadtxt(input_dir + '/data.data')
